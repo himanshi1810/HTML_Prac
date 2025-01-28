@@ -1,0 +1,106 @@
+.navbar {
+    background-color: #2874f0;
+}
+ 
+ 
+ 
+.navbar-brand {
+    margin-left: 120px;
+}
+ 
+.navbar-brand img {
+    width: 100px;
+}
+ 
+.search-input {
+    width: 400px;
+}
+ 
+.btn-custom:hover {
+    background-color: #f5faf5;
+}
+ 
+.cart-icon {
+    color: white;
+    font-size: 1.5rem;
+}
+ 
+.navbar-nav .nav-link {
+    color: white;
+}
+ 
+.navbar-nav .nav-link:hover {
+    color: #fafaf5;
+}
+ 
+.search-input {
+    max-width: 500px;
+}
+ 
+.input-group .form-control {
+    border-right: none;
+}
+ 
+.input-group-text {
+    background-color: white;
+    border-left: none;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+}
+ 
+.login {
+    background-color: white;
+    margin-top: 2px;
+    padding: 5px 90px; /* Adjust padding to make it look better */
+    font-weight: 600;
+    border: 2px solid #007bff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.navbar-collapse {
+    margin-left: 100px;
+}
+
+.deals {
+    margin: 100px;
+}
+/* Style for both the prev and next buttons */
+.carousel-control-prev, .carousel-control-next {
+    background-color: white;        
+    border: none;                   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    color: black;                   
+    font-weight: bold;              
+    width: 40px;                   
+    height: 40px;                   
+    display: flex; 
+    padding: 25px;                
+    align-items: center;            
+    justify-content: center;                    
+    position: absolute;             
+    top: 50%;                       
+    transform: translateY(-50%);    
+    z-index: 1;                    
+    opacity: 0.8;                   
+    transition: opacity 0.3s ease;  
+}
+
+.carousel-control-prev {
+    left: 10px;       
+}             
+
+.carousel-control-next {
+    right: 10px;     
+}               
+
+/* Hover effect to make buttons more prominent */
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    opacity: 1;                     
+}
+
+/* Style for the arrows inside the buttons */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    font-size: 20px;              
+    color: black;                   
+}
+
