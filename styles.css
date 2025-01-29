@@ -58,7 +58,18 @@
 .navbar-collapse {
     margin-left: 100px;
 }
-
+@media (max-width: 768px) {
+    .subnav-item {
+        display: none; /* Hide all links on small screens */
+    }
+    .subnav-item.dropdown {
+        display: block !important; /* Keep dropdowns visible */
+    }
+    .subnav-item:nth-child(1) { display: block; } /* Show first item */
+    @media (max-width: 600px) {
+        .nav-item:nth-child(2) { display: block; } /* Show second item as screen shrinks */
+    }
+}
 a {
     text-decoration: none;
 

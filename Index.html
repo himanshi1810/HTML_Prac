@@ -14,7 +14,7 @@
   <link rel="icon" href="./assets/favicon.png" />
 </head>
 
-<body style="background-color: aliceblue;">
+<body>
   <!-- NavBar -->
   <nav class="navbar navbar-expand-lg sticky-sm-top">
     <div class="container d-flex justify-content-evenly align-items-center">
@@ -35,7 +35,7 @@
           <input class="form-control form-control-sm" type="search" placeholder="Search for products, brands, and more"
             aria-label="Search" />
           <span class="input-group-text bg-white border border-0">
-            <i class="bi bi-search text-primary" style="margin-bottom: 8px; font-weight: 800"></i>
+            <i class="bi bi-search text-primary" style="margin-bottom: 4px; font-weight: 800"></i>
           </span>
         </div>
       </form>
@@ -67,11 +67,11 @@
   </nav>
 
   <!--Sub Nav Bar  -->
-  <nav class="navbar navbar-expand navbar-light bg-white container-fluid  ">
+  <nav class="navbar navbar-expand navbar-light bg-white container-fluid  mx-auto ">
     <div class="collapse navbar-collapse justify-content-evenly" id="navbarNav" style="margin-left: -15px;">
       <ul class="navbar-nav d-flex justify-content-center align-items-center gap-3"
         style="align-items: center; flex-wrap: no-wrap">
-        <li class="nav-item d-flex flex-column nav-item-1" style="text-align: center; width: 10%">
+        <li class="nav-item d-flex flex-column subnav-item nav-item-1" style="text-align: center; width: 10%">
           <a class="nav-link" href="#">
             <img src="./assets/nav/top offers.png" alt="Top Offers"
               style="width: 50px; height: auto; margin-bottom: 8px" />
@@ -80,7 +80,7 @@
             Top Offers
           </div>
         </li>
-        <li class="nav-item d-flex flex-column nav-item-2" style="text-align: center; width: 10%">
+        <li class="nav-item d-flex flex-column subnav-item nav-item-2" style="text-align: center; width: 10%">
           <a class="nav-link" href="#">
             <img src="./assets/nav/grocery.png" alt="Groceries" style="width: 50px; height: auto; margin-bottom: 8px" />
           </a>
@@ -88,7 +88,7 @@
             Groceries
           </div>
         </li>
-        <li class="nav-item d-flex flex-column nav-item-3" style="text-align: center; width: 10%">
+        <li class="nav-item d-flex flex-column subnav-item nav-item-3" style="text-align: center; width: 10%">
           <a class="nav-link" href="#">
             <img src="./assets/nav/mobiles.png" alt="Mobiles" style="width: 50px; height: auto; margin-bottom: 8px" />
           </a>
@@ -96,7 +96,7 @@
             Mobiles
           </div>
         </li>
-        <li class="nav-item d-flex flex-column nav-item-4" style="text-align: center; width: 10%; position: relative">
+        <li class="nav-item d-flex flex-column subnav-item nav-item-4" style="text-align: center; width: 10%; position: relative">
           <a class="nav-link" href="#">
             <img src="./assets/nav/fashion.png" alt="Beauty, Toys & More"
               style="width: 50px; height: auto; margin-bottom: 8px" />
@@ -144,7 +144,7 @@
           </div>
         </li>
 
-        <li class="nav-item d-flex flex-column nav-item-5" style="text-align: center; width: 10%; position: relative">
+        <li class="nav-item d-flex flex-column subnav-item nav-item-5" style="text-align: center; width: 10%; position: relative">
           <a class="nav-link" href="#">
             <img src="./assets/nav/elec.png" alt="Beauty, Toys & More"
               style="width: 50px; height: auto; margin-bottom: 8px" />
@@ -192,7 +192,7 @@
           </div>
         </li>
 
-        <li class="nav-item d-flex flex-column nav-item-6" style="text-align: center; width: 10%; position: relative">
+        <li class="nav-item d-flex flex-column subnav-item nav-item-6" style="text-align: center; width: 10%; position: relative">
           <a class="nav-link" href="#">
             <img src="./assets/nav/home.png" alt="Beauty, Toys & More"
               style="width: 50px; height: auto; margin-bottom: 8px" />
@@ -240,7 +240,7 @@
           </div>
         </li>
 
-        <li class="nav-item d-flex flex-column nav-item-7" style="text-align: center; width: 10%; position: relative">
+        <li class="nav-item d-flex flex-column subnav-item nav-item-7" style="text-align: center; width: 10%; position: relative">
           <a class="nav-link" href="#">
             <img src="./assets/nav/appliances.png" alt="Beauty, Toys & More"
               style="width: 50px; height: auto; margin-bottom: 8px" />
@@ -287,7 +287,7 @@
             </ul>
           </div>
         </li>
-        <li class="nav-item d-flex flex-column nav-item-8" style="text-align: center; width: 10%">
+        <li class="nav-item d-flex flex-column subnav-item nav-item-8" style="text-align: center; width: 10%">
           <a class="nav-link" href="#">
             <img src="./assets/nav/travel.png" alt="Home" style="width: 50px; height: auto; margin-bottom: 8px" />
           </a>
@@ -295,7 +295,7 @@
             Travel
           </div>
         </li>
-        <li class="nav-item d-flex flex-column nav-item-9" style="text-align: center; width: 10%; position: relative">
+        <li class="nav-item d-flex flex-column subnav-item nav-item-9" style="text-align: center; width: 10%; position: relative">
           <a class="nav-link" href="#">
             <img src="./assets/nav/Beauty,toy.png" alt="Beauty, Toys & More"
               style="width: 50px; height: auto; margin-bottom: 8px" />
@@ -346,7 +346,8 @@
     </div>
   </nav>
 
-  <main class="bg-body-tertiary py-3">
+  <!-- Offer Div -->
+  <section class="bg-body-tertiary py-3">
     <!-- Deals of the day-->
     <div class="container-fluid container-lg ">
       <div class="grid my-3">
@@ -355,7 +356,8 @@
           <!-- card-header -->
           <div class="card-header bg-white d-block d-md-flex justify-content-between">
             <div class="d-flex gap-2 gap-lg-4 justify-content-between justify-content-lg-start">
-              <div class="d-flex h5 my-auto"><span>Deals of the Day</span></div>
+              <div class="d-flex h5 my-auto"><span>Deals of the Day</span>
+              </div>
               <div class="d-flex align-items-center gap-2">
                 <i class="bi bi-clock" style="margin-right: 8px; margin-bottom: 5px;"></i>
                 <div class="text-secondary">2 : 07 : 36 Left</div>
@@ -368,7 +370,7 @@
           <!-- carousel for laptop screen -->
           <div id="offerCrousal" class="carousel slide d-none d-md-block my-auto">
             <div class="carousel-inner">
-
+              <!-- First slide for crousal Item -->
               <div class="carousel-item active">
                 <div class="card_wrapper">
                   <div class="card border border-0 card_offerCrousal">
@@ -405,7 +407,7 @@
                   </div>
                 </div>
               </div>
-
+              <!-- Second slide for offer crousal -->
               <div class="carousel-item">
                 <div class="card_wrapper">
                   <div class="card border border-0 card_offerCrousal">
@@ -590,12 +592,12 @@
             </div>
           </div>
           <!-- carousel for laptop screen -->
-          <div id="carousel2" class="carousel slide d-none d-md-block">
+          <div id="bookCrousal" class="carousel slide d-none d-md-block">
             <div class="carousel-inner" style="width: 75%;">
-              <!-- 1st slide -->
+              <!-- 1st slide for book crousal -->
               <div class="carousel-item active">
                 <div class="card_wrapper py-3 gap-2">
-                  <div class="card border border-0 card_carousel2">
+                  <div class="card border border-0 card_bookCrousal">
                     <img src="assets/books/guitar.jpeg" class="card-img-top h-50" alt="harmonium">
                     <div class="card-body text-center">
                       <div class="card-title">Guitar</div>
@@ -603,7 +605,7 @@
                       <div class="text-secondary card-text text-muted small">Shop now!</div>
                     </div>
                   </div>
-                  <div class="card border border-0 card_carousel2">
+                  <div class="card border border-0 card_bookCrousal">
                     <img src="assets/books/drums.jpeg" class="card-img-top h-50" alt="flute">
                     <div class="card-body text-center">
                       <div class="card-title">Drums</div>
@@ -611,7 +613,7 @@
                       <div class="text-secondary card-text text-muted small">Shop now!</div>
                     </div>
                   </div>
-                  <div class="card border border-0 card_carousel2">
+                  <div class="card border border-0 card_bookCrousal">
                     <img src="assets/books/piano.jpeg" class="card-img-top h-50" alt="guitarred">
                     <div class="card-body text-center">
                       <div class="card-title">Acoustic Piano</div>
@@ -619,7 +621,7 @@
                       <div class="text-secondary card-text text-muted small">Juarez, Revel</div>
                     </div>
                   </div>
-                  <div class="card border border-0 card_carousel2">
+                  <div class="card border border-0 card_bookCrousal">
                     <img src="assets/books/atomic habits.jpeg" class="card-img-top h-50" alt="acc1">
                     <div class="card-body text-center">
                       <div class="card-title">Atomic Habit</div>
@@ -627,7 +629,7 @@
                       <div class="text-secondary card-text text-muted small">Shop now!</div>
                     </div>
                   </div>
-                  <div class="card border border-0 card_carousel2">
+                  <div class="card border border-0 card_bookCrousal">
                     <img src="assets/books/rich dad poor dad.jpeg" class="card-img-top h-50" alt="acc2">
                     <div class="card-body text-center">
                       <div class="card-title">Rich dad Poor Dad</div>
@@ -635,7 +637,7 @@
                       <div class="text-secondary card-text text-muted small">Shop now!</div>
                     </div>
                   </div>
-                  <div class="card border border-0 card_carousel2">
+                  <div class="card border border-0 card_bookCrousal">
                     <img src="assets/books/guitar.jpeg" class="card-img-top h-50" alt="guitarblue">
                     <div class="card-body text-center">
                       <div class="card-title">Acoustic guitars</div>
@@ -735,7 +737,7 @@
         </div>
       </div>
     </div>
-  </main>
+  </section>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
